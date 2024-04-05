@@ -15,9 +15,8 @@ class Solution {
         }
       
         }
-          if(flag==s.length()) {
-            return true;
-         }
+          if(flag==s.length()) return true;
+         
         
     return false;
     }
