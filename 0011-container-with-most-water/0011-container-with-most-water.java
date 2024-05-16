@@ -12,9 +12,6 @@ class Solution {
         if(height[i]<height[j]){
             i++;
         }
-        else if(height[j]<height[i]){
-            j--;
-        }
        else{
             j--;
 
