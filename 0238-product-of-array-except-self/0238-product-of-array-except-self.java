@@ -11,12 +11,12 @@ class Solution {
         j++;
     }
     int [] right = new int[n];
-    int prod=1;
+    int r_prod=1;
     right[n-1]=1;
     int r=n-2;
     for(int i=n-2; i>=0; i--){
-        prod=prod*nums[i+1];
-        right[r]=prod;
+        r_prod=r_prod*nums[i+1];
+        right[r]=r_prod;
         r--;
     }
 int [] answer = new int[n];
